@@ -19,7 +19,6 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 .home-container {
   background-color: #ff0000;

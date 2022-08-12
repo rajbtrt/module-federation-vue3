@@ -3,7 +3,7 @@
     <div class="top-container">
       <h4 class="header">Top Header Container App</h4>
     </div>
-    <div>
+    <div class="remote-component">
       <header-element></header-element>
     </div>
   </div>
@@ -24,8 +24,8 @@
   text-align: center;
   color: #2c3e50;
 }
-.container {
-  display: flex;
+.remote-component {
+  padding: 10px;
 }
 .top-container {
   background-color: #ff6600;
