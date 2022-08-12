@@ -1,17 +1,13 @@
 <template>
-  <div class="container">
-    <div class="top-container">
-      <h4 class="header">Top Header Container App</h4>
-    </div>
-    <div>
-      <header-element></header-element>
-    </div>
+  <div class="home-container">
+    <h4 class="home-header">Top Header Home App</h4>
   </div>
 </template>
 
-<script setup></script>
+<script>
+</script>
 
-<style scoped>
+<style>
 * {
   margin: 0;
   padding: 0;
@@ -23,16 +19,14 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  margin-top: 60px;
 }
-.container {
-  display: flex;
-}
-.top-container {
-  background-color: #ff6600;
+.home-container {
+  background-color: #ff0000;
   width: 100%;
   height: 100px;
 }
-.header {
+.home-header{
   color: #ffffff;
   padding-top: 20px;
 }

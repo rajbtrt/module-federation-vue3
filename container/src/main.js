@@ -1,4 +1,9 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp, defineAsyncComponent } from "vue";
+import App from "./App.vue";
 
-createApp(App).mount('#app')
+const Main = defineAsyncComponent(() => import('home/main'));
+
+const app = createApp(App)
+app.component('header-element',Main)
+
+app.mount("#app");

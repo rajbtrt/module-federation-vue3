@@ -1,20 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Home App"/>
+  <!-- <div class="home-container"> -->
+    <h4 class="home-header">Top Header Home App</h4>
+  <!-- </div> -->
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
 </script>
 
 <style>
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -22,5 +20,14 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.home-container {
+  background-color: #ff0000;
+  width: 100%;
+  height: 100px;
+}
+.home-header{
+  color: #ffffff;
+  padding-top: 20px;
 }
 </style>
